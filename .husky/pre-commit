@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run build
+npm run write
+
+if [ -n "$(git status --porcelain)" ]; then
+  git add .
+fi
