@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.navbar .active {
+    background: #262629;
+    border-radius: 4px;
+}
+
+.p-menubar .p-menuitem {
+    margin: 0;
+    font-size: 0.656rem;
+}
+
+@media (min-width: 352px) {
+    .p-menubar .p-menuitem {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 400px) {
+    .p-menubar .p-menuitem {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .p-menubar-root-list {
+        gap: 0.5rem;
+    }
+
+    .p-menubar .p-menuitem {
+        font-size: 1rem;
+    }
+}

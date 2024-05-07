@@ -1,0 +1,7 @@
+@import 'styles/app.css';
+@import 'styles/navbar.css';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Lisu', sans-serif;
+}
