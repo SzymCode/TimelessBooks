@@ -5,3 +5,12 @@
     box-sizing: border-box;
     font-family: 'Noto Sans Lisu', sans-serif;
 }
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    top: 5rem;
+}
