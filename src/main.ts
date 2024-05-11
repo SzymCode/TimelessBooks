@@ -10,9 +10,15 @@ export const app = createApp(App)
 /**
  *  PrimeVue components
  */
+import Column from 'primevue/column'
+import DataTable from 'primevue/datatable'
+import Image from 'primevue/image'
 import Menubar from 'primevue/menubar'
 
-app.component('Menubar', Menubar)
+app.component('Column', Column)
+    .component('DataTable', DataTable)
+    .component('Image', Image)
+    .component('Menubar', Menubar)
 
 /**
  *  App uses & mount

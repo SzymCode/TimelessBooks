@@ -1,20 +1,16 @@
 <template>
     <Header />
     <Navbar />
-    <Existential v-if="isCurrentUrl('/existential')" />
-    <Philosophy v-if="isCurrentUrl('/philosophy')" />
-    <Psychology v-if="isCurrentUrl('/psychology')" />
-    <Business v-if="isCurrentUrl('/business')" />
+    <BooksTable v-if="shouldShowBooksTable" />
 </template>
 
 <script setup lang="ts">
-import {
-    Header,
-    Navbar,
-    Existential,
-    Philosophy,
-    Psychology,
-    Business,
-} from '@/components'
-import { isCurrentUrl } from '@/utils'
+import { computed } from 'vue'
+
+import { Header, Navbar, BooksTable } from '@/components'
+
+const shouldShowBooksTable = computed(() => {
+    const language = window.location.pathname.substring(3)
+    return language !== ''
+})
 </script>
