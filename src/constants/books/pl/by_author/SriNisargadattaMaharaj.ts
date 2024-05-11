@@ -9,6 +9,12 @@ const SriNisargadattaMaharaj: BookInterface[] = [
     },
     {
         author: 'Sri Nisargadatta Maharaj',
+        title: 'Czym jestem?',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Sri Nisargadatta Maharaj',
         title: 'Spotkania z Mędrcem',
         category: ['egzystencjalne'],
         url: '',
