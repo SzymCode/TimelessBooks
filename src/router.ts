@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory, Router } from 'vue-router'
+
 import App from '@/App.vue'
 
 const VueRouter: Router = createRouter({

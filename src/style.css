@@ -2,6 +2,7 @@
 @import 'styles/header.css';
 @import 'styles/navbar.css';
 @import 'styles/books_table.css';
+@import 'styles/description.css';
 
 * {
     box-sizing: border-box;
