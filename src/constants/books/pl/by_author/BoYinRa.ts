@@ -15,6 +15,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Księga Rozmów',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Księga Człowieka',
         category: ['egzystencjalne'],
         url: '',
@@ -33,18 +39,6 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
-        title: 'Księga Boga Żywego',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'Droga do Boga',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
         title: 'Księga o Szczęściu',
         category: ['egzystencjalne'],
         url: '',
@@ -58,6 +52,24 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'Hortus Conclusus',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Duch a Forma',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Księga Boga Żywego',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Droga do Boga',
         category: ['egzystencjalne'],
         url: '',
     },

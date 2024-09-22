@@ -15,6 +15,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'The Book Of Dialogues',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'The Book on Human Nature',
         category: ['existential'],
         url: '',
@@ -33,18 +39,6 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
-        title: 'The Book on The Living God',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'The Path to God',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
         title: 'The Book on Happiness',
         category: ['existential'],
         url: '',
@@ -58,6 +52,24 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'Hortus Conclusus',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Spirit and Form',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'The Book on The Living God',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'The Path to God',
         category: ['existential'],
         url: '',
     },
