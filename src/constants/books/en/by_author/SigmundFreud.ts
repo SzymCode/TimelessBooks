@@ -4,19 +4,19 @@ const SigmundFreud: BookInterface[] = [
     {
         author: 'Sigmund Freud',
         title: 'Beyond the Pleasure Principle',
-        category: ['psychology', 'philosophy'],
+        category: ['psychology'],
         url: '',
     },
     {
         author: 'Sigmund Freud',
         title: 'Civilization and Its Discontents',
-        category: ['psychology', 'philosophy'],
+        category: ['psychology'],
         url: '',
     },
     {
         author: 'Sigmund Freud',
         title: 'The Future of an Illusion',
-        category: ['psychology', 'philosophy'],
+        category: ['psychology'],
         url: '',
     },
     {

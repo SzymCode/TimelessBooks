@@ -4,13 +4,13 @@ const SigmundFreud: BookInterface[] = [
     {
         author: 'Sigmund Freud',
         title: 'Poza zasadą przyjemności',
-        category: ['psychologia', 'filozofia'],
+        category: ['psychologia'],
         url: '',
     },
     {
         author: 'Sigmund Freud',
         title: 'Kultura jako źródło cierpień',
-        category: ['psychologia', 'filozofia'],
+        category: ['psychologia'],
         url: '',
     },
     {

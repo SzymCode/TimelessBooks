@@ -4,7 +4,7 @@ const GrantCardone: BookInterface[] = [
     {
         author: 'Grant Cardone',
         title: 'Be Obsessed or Be Average',
-        category: ['business', 'philosophy'],
+        category: ['business'],
         url: '',
     },
 ]

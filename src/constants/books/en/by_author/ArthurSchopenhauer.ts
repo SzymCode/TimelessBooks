@@ -4,7 +4,7 @@ const ArthurSchopenhauer: BookInterface[] = [
     {
         author: 'Arthur Schopenhauer',
         title: 'The Art of Being Right',
-        category: ['philosophy', 'psychology'],
+        category: ['philosophy'],
         url: '',
     },
 ]

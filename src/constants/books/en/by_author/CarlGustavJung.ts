@@ -4,13 +4,13 @@ const CarlGustavJung: BookInterface[] = [
     {
         author: 'Carl Gustav Jung',
         title: 'The Development of Personality',
-        category: ['psychology', 'philosophy'],
+        category: ['psychology'],
         url: '',
     },
     {
         author: 'Carl Gustav Jung',
         title: 'The Archetypes and the Collective Unconscious',
-        category: ['psychology', 'philosophy'],
+        category: ['psychology'],
         url: '',
     },
 ]

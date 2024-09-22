@@ -4,7 +4,7 @@ const ArthurSchopenhauer: BookInterface[] = [
     {
         author: 'Arthur Schopenhauer',
         title: 'Erystyka, czyli sztuka prowadzenia sporów',
-        category: ['psychologia', 'filozofia'],
+        category: ['filozofia'],
         url: '',
     },
 ]

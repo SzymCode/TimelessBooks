@@ -4,7 +4,7 @@ const JimRohn: BookInterface[] = [
     {
         author: 'Jim Rohn',
         title: 'Potęga ambicji',
-        category: ['biznes', 'filozofia'],
+        category: ['biznes'],
         url: '',
     },
 ]
