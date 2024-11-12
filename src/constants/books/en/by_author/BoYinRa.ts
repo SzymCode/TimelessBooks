@@ -15,6 +15,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'The Mirage of Freedom',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'The Book Of Dialogues',
         category: ['existential'],
         url: '',
@@ -45,12 +51,6 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
-        title: 'The Book on Life Beyond',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
         title: 'Hortus Conclusus',
         category: ['existential'],
         url: '',
@@ -58,6 +58,12 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'Spirit and Form',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'The Book on Life Beyond',
         category: ['existential'],
         url: '',
     },

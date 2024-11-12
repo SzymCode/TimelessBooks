@@ -15,6 +15,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Upiór Wolności',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Księga Rozmów',
         category: ['egzystencjalne'],
         url: '',
@@ -45,12 +51,6 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
-        title: 'Księga o Zaświecie',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
         title: 'Hortus Conclusus',
         category: ['egzystencjalne'],
         url: '',
@@ -58,6 +58,12 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'Duch a Forma',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Księga o Zaświecie',
         category: ['egzystencjalne'],
         url: '',
     },
