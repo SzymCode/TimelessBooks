@@ -57,6 +57,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Światy, Szereg Obrazów Kosmicznych',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Duch a Forma',
         category: ['egzystencjalne'],
         url: '',

@@ -57,6 +57,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Worlds of Spirit',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Spirit and Form',
         category: ['existential'],
         url: '',
