@@ -9,7 +9,19 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Worlds of Spirit',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'The Book on the Royal Art',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Hortus Conclusus',
         category: ['existential'],
         url: '',
     },
@@ -46,18 +58,6 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'The Book on Happiness',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'Hortus Conclusus',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'Worlds of Spirit',
         category: ['existential'],
         url: '',
     },

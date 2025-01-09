@@ -9,7 +9,19 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Światy, Szereg Obrazów Kosmicznych',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Księga Sztuki Królewskiej',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Hortus Conclusus',
         category: ['egzystencjalne'],
         url: '',
     },
@@ -46,18 +58,6 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'Księga o Szczęściu',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'Hortus Conclusus',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'Światy, Szereg Obrazów Kosmicznych',
         category: ['egzystencjalne'],
         url: '',
     },
