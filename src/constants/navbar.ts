@@ -1,31 +1,27 @@
-import { ref, computed, ComputedRef } from 'vue'
+import { ref, computed } from 'vue'
 
-import { NavbarItemInterface, NavbarItemWithClassInterface } from '@/types'
 import { language } from '@/constants'
 import { isCurrentUrl } from '@/utils'
 
-const navbarItems = ref<Record<string, NavbarItemInterface[]>>({
+const navbarItems = ref<Record<string, [string, string][]>>({
     en: [
-        { label: 'Existential', url: '/en/existential' },
-        { label: 'Philosophy', url: '/en/philosophy' },
-        { label: 'Psychology', url: '/en/psychology' },
-        { label: 'Business', url: '/en/business' },
+        ['Existential', '/en/existential'],
+        ['Philosophy', '/en/philosophy'],
+        ['Psychology', '/en/psychology'],
+        ['Business', '/en/business'],
     ],
     pl: [
-        { label: 'Egzystencjalne', url: '/pl/egzystencjalne' },
-        { label: 'Filozofia', url: '/pl/filozofia' },
-        { label: 'Psychologia', url: '/pl/psychologia' },
-        { label: 'Biznes', url: '/pl/biznes' },
+        ['Egzystencjalne', '/pl/egzystencjalne'],
+        ['Filozofia', '/pl/filozofia'],
+        ['Psychologia', '/pl/psychologia'],
+        ['Biznes', '/pl/biznes'],
     ],
 })
 
-const itemsWithActiveClass: ComputedRef<NavbarItemWithClassInterface[]> =
-    computed(() => {
-        const currentLanguageItems = navbarItems.value[language]
-        return currentLanguageItems.map((item: NavbarItemInterface) => ({
-            ...item,
-            class: isCurrentUrl(item.url) ? 'active' : '',
-        }))
-    })
-
-export default itemsWithActiveClass
+export default computed(() =>
+    navbarItems.value[language].map(([label, url]) => ({
+        label,
+        url,
+        class: isCurrentUrl(url) ? 'active' : '',
+    }))
+)

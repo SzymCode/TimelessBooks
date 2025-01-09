@@ -4,14 +4,12 @@ import { BookInterface } from '@/types'
 import { books } from '@/constants'
 import { isCurrentUrl } from '@/utils'
 
-const filteredBooks: ComputedRef<BookInterface[]> = computed(() => {
-    return books.value.filter((book: BookInterface) => {
-        const categories: string[] = book
-            .formattedCategory!.split(',')
-            .map((category: string) => category.trim())
-
-        return categories.some((category: string) => isCurrentUrl(category))
-    })
-})
+const filteredBooks: ComputedRef<BookInterface[]> = computed(() =>
+    books.value.filter((book) =>
+        book.formattedCategory
+            ?.split(',')
+            .some((category) => isCurrentUrl(category.trim()))
+    )
+)
 
 export default filteredBooks
