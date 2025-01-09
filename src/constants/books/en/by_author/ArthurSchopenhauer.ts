@@ -7,6 +7,12 @@ const ArthurSchopenhauer: BookInterface[] = [
         category: ['philosophy'],
         url: '',
     },
+    {
+        author: 'Arthur Schopenhauer',
+        title: 'On the Freedom of the Will',
+        category: ['philosophy'],
+        url: '',
+    },
 ]
 
 export default ArthurSchopenhauer
