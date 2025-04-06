@@ -7,6 +7,12 @@ const ItzhakBentov: BookInterface[] = [
         category: ['egzystencjalne'],
         url: '',
     },
+    {
+        author: 'Itzhak Bentov',
+        title: 'A Cosmic Book on the Mechanics of Creation (EN)',
+        category: ['egzystencjalne'],
+        url: '',
+    },
 ]
 
 export default ItzhakBentov
