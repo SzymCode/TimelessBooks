@@ -27,19 +27,7 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
-        title: 'The Mirage of Freedom',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'The Book Of Dialogues',
-        category: ['existential'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'The Book on Human Nature',
+        title: 'Spectre of Freedom',
         category: ['existential'],
         url: '',
     },
@@ -58,6 +46,24 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'The Book on Happiness',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'The Book on Human Nature',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'The Secret',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'The Book Of Dialogues',
         category: ['existential'],
         url: '',
     },

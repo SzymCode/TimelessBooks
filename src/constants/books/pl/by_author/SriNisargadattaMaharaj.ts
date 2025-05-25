@@ -21,7 +21,7 @@ const SriNisargadattaMaharaj: BookInterface[] = [
     },
     {
         author: 'Sri Nisargadatta Maharaj',
-        title: 'Experience of Nothingness (EN)',
+        title: 'Experience of Nothingness',
         category: ['egzystencjalne'],
         url: '',
     },

@@ -3,6 +3,7 @@ import { Ref, ref } from 'vue'
 import { BookInterface } from '@/types'
 
 import {
+    AlanWatts,
     Aristotle,
     ArthurSchopenhauer,
     BoYinRa,
@@ -24,6 +25,7 @@ import {
 } from './'
 
 const polish: Ref<BookInterface[]> = ref([
+    ...AlanWatts,
     ...Aristotle,
     ...ArthurSchopenhauer,
     ...BoYinRa,

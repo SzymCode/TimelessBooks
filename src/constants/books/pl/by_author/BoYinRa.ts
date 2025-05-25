@@ -33,18 +33,6 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
-        title: 'Księga Rozmów',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
-        title: 'Księga Człowieka',
-        category: ['egzystencjalne'],
-        url: '',
-    },
-    {
-        author: 'Bô Yin Râ',
         title: 'Księga Pociechy',
         category: ['egzystencjalne'],
         url: '',
@@ -58,6 +46,24 @@ const BoYinRa: BookInterface[] = [
     {
         author: 'Bô Yin Râ',
         title: 'Księga o Szczęściu',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Księga Człowieka',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Tajemnica',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
+        title: 'Księga Rozmów',
         category: ['egzystencjalne'],
         url: '',
     },

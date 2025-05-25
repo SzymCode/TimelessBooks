@@ -3,13 +3,13 @@ import { BookInterface } from '@/types'
 const ItzhakBentov: BookInterface[] = [
     {
         author: 'Itzhak Bentov',
-        title: 'Stalking the Wild Pendulum (EN)',
+        title: 'Stalking the Wild Pendulum',
         category: ['egzystencjalne'],
         url: '',
     },
     {
         author: 'Itzhak Bentov',
-        title: 'A Cosmic Book on the Mechanics of Creation (EN)',
+        title: 'A Cosmic Book on the Mechanics of Creation',
         category: ['egzystencjalne'],
         url: '',
     },

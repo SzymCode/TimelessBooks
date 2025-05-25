@@ -1,3 +1,4 @@
+export { default as AlanWatts } from './by_author/AlanWatts'
 export { default as Aristotle } from './by_author/Aristotle'
 export { default as ArthurSchopenhauer } from './by_author/ArthurSchopenhauer'
 export { default as BoYinRa } from './by_author/BoYinRa'
