@@ -9,7 +9,7 @@ const ItzhakBentov: BookInterface[] = [
     },
     {
         author: 'Itzhak Bentov',
-        title: 'A Cosmic Book on the Mechanics of Creation',
+        title: 'A Brief Tour of Higher Consciousness',
         category: ['existential'],
         url: '',
     },

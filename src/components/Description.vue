@@ -12,8 +12,8 @@
             <h3 class="support-us">
                 {{
                     language === 'en'
-                        ? 'Do you want to support us?'
-                        : 'Chcesz nas wesprzeć?'
+                        ? 'Do you want to support me?'
+                        : 'Chcesz mnie wesprzeć?'
                 }}
             </h3>
             <a href="https://buymeacoffee.com/timeless.books">
