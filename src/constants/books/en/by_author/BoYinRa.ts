@@ -57,6 +57,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Living in Eternal Light',
+        category: ['existential'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'The Secret',
         category: ['existential'],
         url: '',

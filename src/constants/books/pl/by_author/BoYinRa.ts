@@ -57,6 +57,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Życie w Świetle',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Tajemnica',
         category: ['egzystencjalne'],
         url: '',
