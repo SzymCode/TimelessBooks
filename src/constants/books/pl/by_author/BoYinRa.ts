@@ -63,6 +63,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Drogowskaz',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Tajemnica',
         category: ['egzystencjalne'],
         url: '',
