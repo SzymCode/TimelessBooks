@@ -21,6 +21,12 @@ const BoYinRa: BookInterface[] = [
     },
     {
         author: 'Bô Yin Râ',
+        title: 'Wysoki Cel',
+        category: ['egzystencjalne'],
+        url: '',
+    },
+    {
+        author: 'Bô Yin Râ',
         title: 'Hortus Conclusus',
         category: ['egzystencjalne'],
         url: '',
